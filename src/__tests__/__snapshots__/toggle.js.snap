@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can be initialized to toggled on 1`] = `
+.css-89hiqm,
+[data-css-89hiqm] {
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+  display: inline-block;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.css-89hiqm:hover,
+[data-css-89hiqm]:hover {
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+<button
+  class="css-89hiqm"
+>
+  Toggle Me
+</button>
+`;
+
+exports[`initializes as toggled off default 1`] = `
+.css-89hiqm,
+[data-css-89hiqm] {
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+  display: inline-block;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.css-89hiqm:hover,
+[data-css-89hiqm]:hover {
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+<button
+  class="css-89hiqm"
+>
+  Toggle Me
+</button>
+`;
+
+exports[`invokes the onToggle prop when clicked 1`] = `[Function]`;
